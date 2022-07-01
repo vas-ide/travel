@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    background-color: bisque;
+}
+
+.item {
+    width: 25px;
+    height: 25px;
+    background-color: silver;
+    border-style: groove;
+    border-color: seagreen;
+    border-width: 1px;
+
+}
+
+.bor {
+    border: 2px;
+    color: #000;
+}
+

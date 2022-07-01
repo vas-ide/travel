@@ -1,0 +1,47 @@
+
+
+p {
+
+
+}
+
+/*
+
+    font-family: 'Red Hat Text', serif; --- Шрифт и его написание
+    serif
+    sans-serif
+    cursive
+    system-ui
+
+    font-style: normal;  --- стиль шрифта (обычный, жирный, курсив)
+    font-weight: 500; --- начертание шрифта (толщина)
+    font-size: 16px; --- размер шрифта
+    line-height: 21px;
+
+    display: flex;
+    display: inline-flex;
+    justify-content: flex-start; --- значение по умолчанию
+    justify-content: center; --- размещение контента
+    align-items: stretch; --- значение по умолчанию
+    align-items: flex-start; --- выравнивает в зависимости от длины контента а не блока
+
+
+
+
+
+
+
+
+p {
+    color: brown;
+}
+
+.main-paragraph {
+    color: blue;
+}
+
+#special-id {
+    color: aquamarine;
+}
+
+ */

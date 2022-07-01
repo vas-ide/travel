@@ -1,0 +1,44 @@
+
+
+.wrapper {
+    height: 100%;
+    overflow: hidden;
+    min-height: 100%;
+    padding: 50px;
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.block {
+
+}
+
+.block__row {
+    display: flex;
+    align-items: stretch;
+
+    border: 20px solid #c5c525;
+    margin: 0 0 20px 0;
+}
+
+.block__column {
+    border: 20px solid #5e5373;
+}
+
+.block__item {
+    background-color: steelblue;
+    padding: 50px;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+
+.block__list {
+    display: flex;
+    align-items: center;
+    li{margin: 0 15px 0 0;
+        &:last child{margin: 0 0 0 0;}
+    }
+}

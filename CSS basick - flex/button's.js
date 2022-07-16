@@ -1,5 +1,5 @@
-const button = document.getElementById('button')
-const span = document.getElementById('span')
+const buttons = document.querySelectorAll('myButton')
+const spans = document.querySelectorAll('mySpan')
 
 const Counter = function (){
     this.count = 0
@@ -8,13 +8,17 @@ const Counter = function (){
     }
 }
 
+for (let i = 0; i < buttons.length; i++) {
+    const counter = new Counter()
+    const currentButton = buttons[i];
+    const currentSpan = spans[i];
+    currentSpan.innerHTML = counter.count;
+
+    currentButton.addEventListener('click', (event) => {
+        counter.increase()
+        currentSpan.innerHTML = counter.count
+    })
+}
+
 const counter = new Counter()
 span.innerHTML = counter.count;
-
-
-button.addEventListener('click', (event) => {
-    //console.log(event)
-    counter.increase()
-    span.innerHTML = counter.count
-    //console.log(counter.count)
-})

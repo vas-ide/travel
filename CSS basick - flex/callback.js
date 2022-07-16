@@ -16,4 +16,4 @@ for (let i = 0; i < 20; i++) {
     setTimeout(() => {
         alarm(i, callPolice)
     }, 100 * i)
-}
+}recursion

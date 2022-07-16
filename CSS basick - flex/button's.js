@@ -17,4 +17,4 @@ button.addEventListener('click', (event) => {
     counter.increase()
     span.innerHTML = counter.count
     //console.log(counter.count)
-}) 
+})

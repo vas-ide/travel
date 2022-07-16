@@ -1,5 +1,5 @@
-const buttons = document.querySelectorAll('myButton')
-const spans = document.querySelectorAll('mySpan')
+const buttons = document.querySelectorAll('.myButton')
+const spans = document.querySelectorAll('.mySpan')
 
 const Counter = function (){
     this.count = 0
@@ -19,6 +19,3 @@ for (let i = 0; i < buttons.length; i++) {
         currentSpan.innerHTML = counter.count
     })
 }
-
-const counter = new Counter()
-span.innerHTML = counter.count;
